@@ -1,0 +1,33 @@
+{
+  "name": "rstrapi-base",
+  "version": "0.0.1",
+  "description": "React/Strapi simple base made with docker-compose",
+  "main": "index.js",
+  "dependencies": {
+    "next": "^9.3.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jodavle/rstrapi-base.git"
+  },
+  "keywords": [
+    "react",
+    "next",
+    "strapi",
+    "docker"
+  ],
+  "author": "David Lechuga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jodavle/rstrapi-base/issues"
+  },
+  "homepage": "https://github.com/jodavle/rstrapi-base#readme"
+}

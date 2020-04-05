@@ -34,6 +34,7 @@ services:
       - front-tier
 
   web:
+    container_name: npm
     image: ${NODEVERSION}
     environment:
       - NODE_ENV=${NODEENV}
